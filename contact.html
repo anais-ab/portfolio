@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Contact</title>
+        <link rel="stylesheet" href="styles/style.css"/>
+        <link rel="stylesheet" href="styles/contact.css"/>
+        <script src="scripts/script.js" defer></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Orienta&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <a href="index.html" id="retour_accueil">ANAIS BOYER</a> 
+                <div>
+                    <a href="index.html" class="menu_cercle">Accueil</a>
+                    <a href="a_propos.html" class="menu_cercle">A propos</a>
+                    <a href="contact.html" class="menu_cercle">Contact</a>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <section class="section_contact">
+                <h2>Me contacter</h2>
+                <form method="get" action="">
+                    <div class="form-nom-email">
+                        <div class="form_column">
+                            <label for="nom">Nom</label>
+                            <input type="text" name="nom" id="nom"/>
+                        </div>
+                        <div class="form_column">  
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email"/>
+                        </div>      
+                    </div>
+                <label for="message">Message</label>
+                <textarea name="message" id="message" rows="10"></textarea>
+                <input type="submit" value="Envoyer"/>
+            </form>
+            </section>
+        </main>
+
+        <footer>
+            <a href="images/cv_anais_boyer.pdf"><img src="images/logo_cv.png" alt="lien vers CV" class="img_lien"/></a>
+            <a target="_blank" href="https://www.linkedin.com/in/ana%C3%AFs-boyer-dev-web/"><img src="images/logo-linkedin.png" alt="logo linkedin" class="img_lien"/></a>
+        </footer>
+    </body>
+</html>
