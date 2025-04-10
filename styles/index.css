@@ -1,0 +1,61 @@
+.introduction {
+    margin: 0;
+    text-align: center;
+    border-bottom : 3px black solid;
+}
+
+.introduction h1 {
+    margin-top: 90px;
+    padding-bottom: 30px;
+}
+
+.introduction p {
+    text-align: justify;
+    padding-left: 26%;
+    padding-right: 26%;
+    padding-bottom: 30px;
+}
+
+#a_propos {
+    max-width: 1000px;
+    margin: auto;
+    text-align: justify;
+}
+
+.presentation {
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.presentation p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.savoir-etre {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.savoir-etre p {
+    padding: 10px;
+    margin : 0px 30px 30px 30px;
+    font-weight: bold;
+    border : 1px black dashed;
+}
+
+.competences {
+    padding-bottom: 30px;
+}
+
+.competences h2 {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.competences_logo {
+    width : 30px;
+    margin : 0px 10px 30px 10px;
+}
