@@ -78,3 +78,29 @@ footer {
     width: 30px;
     margin : 30px 10px 30px 10px;
 }
+
+    @media screen and (max-width: 996px) {
+    header nav {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    header, footer {
+        padding: 20px 20px;
+    }
+
+    section {
+        padding: 50px 20px 50px 20px;
+    }
+
+    nav a {
+        margin: 0px 10px 20px 10px;
+    }
+
+    .menu_cercle {
+        padding-left: 5px;
+        padding-right: 5px;
+
+    }
+}
