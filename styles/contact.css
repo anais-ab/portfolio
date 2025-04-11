@@ -46,3 +46,14 @@ input[type='submit'] {
 input[value='Envoyer'] {
     font-family: orienta, sans-serif;
 }
+
+@media screen and (max-width: 996px) {
+    .section-contact {
+        padding: 50px 20px;
+    }
+
+    .form-nom-email {
+        flex-direction: column;
+        gap: 0;
+    }
+}
